@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "Gill Sans";
+    src: url("assets/fontes/gillsans-extrabold.ttf");
+}
+
+/*_______________________________________________________________________________________________________________________________________*/
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 5vh;
+    right: 40vw;
+    height: 9vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 170, 255, 0.503);
+    border-radius: 20px;
+    font-family: "Gill Sans";
+    font-size: 2vh;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    display: flex;
+    background-image: url("assets/Imagens/Fundo (Cidade).png");
+    background-size: 100% 100%; /* Faz a imagem cobrir todo o corpo */
+    background-position: center; /* Centraliza a imagem no corpo */
+}
+
+/*_______________________________________________________________________________________________________________________________________*/
+
+.botao {
+    height: 60px;
+    width: 150px;
+    padding: 5px;
+    position: fixed;
+    right: 10;
+    bottom: 10;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(60, 135, 255);
+
+    font-family: "Gill Sans";
+    font-size: 20px;
+    color: azure;
+    
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: rgb(255, 136, 0);
+}
+
+/*_______________________________________________________________________________________________________________________________________*/
+/*STONE MAN*/
+.botoes_stoneMan {
+    padding: 5px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 13vw; /* Largura do botão */
+    height: 26vh;
+
+    background-image: url("assets/Imagens/Stone Man (Rnd).webp");
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.286);
+    
+    cursor: pointer;
+}
+.botoes_stoneMan:hover {
+    background-color: rgb(255, 136, 0);
+}
+
+/*FIRE MAN*/
+.botoes_fireMan {
+    padding: 5px;
+    position: fixed;
+    right: 20vw;
+    top: 10vh;
+    width: 13vw; /* Largura do botão */
+    height: 26vh;
+
+    background-image: url("assets/Imagens/Fire Man (Rnd).webp");
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.286);
+    
+    cursor: pointer;
+}
+.botoes_fireMan:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+/*DYNAMO MAN*/
+.botoes_dynamoMan {
+    padding: 5px;
+    position: fixed;
+    right: 2vw;
+    top: 48vh;
+    width: 13vw; /* Largura do botão */
+    height: 26vh;
+
+    background-image: url("assets/Imagens/Dynamo Man (Rnd).webp");
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.286);
+    
+    cursor: pointer;
+}
+.botoes_dynamoMan:hover {
+    background-color: rgb(255, 251, 0);
+}
+
+/*FROST MAN*/
+.botoes_frostMan {
+    padding: 5px;
+    position: fixed;
+    right: 20vw;
+    top: 58vh;
+    width: 13vw; /* Largura do botão */
+    height: 26vh;
+
+    background-image: url("assets/Imagens/Frost Man (Rnd).webp");
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.286);
+    
+    cursor: pointer;
+}
+.botoes_frostMan:hover {
+    background-color: rgb(0, 213, 255);
+}
+
+/*PLANT MAN*/
+.botoes_plantMan {
+    padding: 5px;
+    position: fixed;
+    left: 15vw;
+    top: 20px;
+    width: 13vw; /* Largura do botão */
+    height: 26vh;
+
+    background-image: url("assets/Imagens/Plant Man (Rnd).webp");
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.286);
+    
+    cursor: pointer;
+}
+.botoes_plantMan:hover {
+    background-color: rgb(0, 255, 0);
+}
+
+/*NAPALM MAN*/
+.botoes_napalmMan {
+    padding: 5px;
+    position: fixed;
+    left: 3vw;
+    top: 33vh;
+    width: 13vw; /* Largura do botão */
+    height: 26vh;
+
+    background-image: url("assets/Imagens/Napalm Man (Rnd).webp");
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.286);
+    
+    cursor: pointer;
+}
+.botoes_napalmMan:hover {
+    background-color: rgb(136, 7, 148);
+}
+
+/*TENGU MAN*/
+.botoes_tenguMan {
+    padding: 5px;
+    position: fixed;
+    left: 24vw;
+    top: 38vh;
+    width: 13vw; /* Largura do botão */
+    height: 26vh;
+
+    background-image: url("assets/Imagens/Tengu Man (Rnd).webp");
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.286);
+    
+    cursor: pointer;
+}
+.botoes_tenguMan:hover {
+    background-color: rgb(192, 231, 234);
+}
+
+/*DIVE MAN*/
+.botoes_diveMan {
+    padding: 5px;
+    position: fixed;
+    left: 5vw;
+    bottom: 10vh;
+    width: 13vw; /* Largura do botão */
+    height: 26vh;
+
+    background-image: url("assets/Imagens/Dive Man (Rnd).webp");
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.286);
+    
+    cursor: pointer;
+}
+.botoes_diveMan:hover {
+    background-color: rgb(30, 0, 255);
+}

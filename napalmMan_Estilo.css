@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Big Deal";
+    src: url("assets/fontes/aBigDeal.ttf");
+}
+@font-face {
+    font-family: "Gill Sans";
+    src: url("assets/fontes/gillsans-extrabold.ttf");
+}
+
+/*_______________________________________________________________________________________________________________________________________*/
+
+body{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(143, 72, 150);
+}
+
+.titulo {
+    margin-top: 2vh;
+    font-family: "Big Deal";
+    font-size: 10vh;
+    color: rgb(255, 198, 25);
+    text-shadow: 6px 4px rgba(0, 0, 0, 0.764)
+}
+
+.div-cartao{
+    justify-content: center;
+    position: fixed;
+    top: 20vh;
+    left: 5vw;
+    width: 28vw; /* Largura da div */
+    height: 60vh;
+    background-color: rgb(255, 228, 203);
+    border-radius: 20px;
+}
+.imagem{
+    width: 100%; /* Largura da div */
+    height: 100%;
+}
+
+.div-texto{
+    justify-content: center;
+    position: fixed;
+    top: 20vh;
+    right: 5vw;
+    width: 60vw; /* Largura da div */
+    height: 60vh;
+    background-color: rgb(255, 228, 203);
+    border-radius: 20px;
+}
+.texto{
+    font-family: "Gill Sans";
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 4vh;
+}
+
+.div_botao{
+    position: fixed;
+    right: 10;
+    bottom: 10;
+}
+.botao {
+    background-color: rgb(60, 135, 255);
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: "Gill Sans";
+    font-size: 20px;
+    border-color: rgb(255, 255, 255);
+    color: azure;
+
+    padding: 5px;
+
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: rgb(255, 136, 0);
+}

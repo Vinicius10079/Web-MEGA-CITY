@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Big Deal";
+    src: url("assets/fontes/aBigDeal.ttf");
+}
+@font-face {
+    font-family: "Gill Sans";
+    src: url("assets/fontes/gillsans-extrabold.ttf");
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("assets/Imagens/Fundo.png");
+    background-attachment: fixed;
+    background-size: 100%;
+    align-items: center;
+}
+
+.titulo {
+    font-family: "Big Deal";
+    font-size: 100px;
+    color:aliceblue;
+    text-shadow: 8px 5px rgba(0, 0, 0, 0.764)
+}
+.painel_cabecalho{
+    display: flex;
+    justify-content: center;
+
+    margin: 30px;
+    width: 700px;
+    height: 100px;
+    padding-bottom: 120px;
+    background-color: rgba(175, 218, 255, 0.764);
+    border-radius: 20px;
+
+    font-family: Verdana;
+}
+
+.conteudo {
+    display: flex;
+
+    margin: 30px;
+    width: 600px;
+    background-color: rgba(175, 218, 255, 0.764);
+    padding: 10px;
+    border-radius: 20px;
+    
+    justify-content: center;
+    font-family: Verdana;
+}
+
+.botao {
+    background-color: rgb(60, 135, 255);
+    height: 60px;
+    width: 600px;
+    border-radius: 10px;
+    font-family: "Gill Sans";
+    font-size: 20px;
+    border-color: rgb(255, 255, 255);
+    color: azure;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: rgb(255, 136, 0);
+}
