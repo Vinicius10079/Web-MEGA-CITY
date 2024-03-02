@@ -56,10 +56,16 @@ body{
     font-size: 4.3vh
 }
 
+.audio{
+    position: fixed;
+    bottom: 5vh;
+    left: 5vw;
+}
+
 .div_botao{
     position: fixed;
-    right: 10;
-    bottom: 10;
+    right: 10vh;
+    bottom: 5vh;
 }
 .botao {
     background-color: rgb(60, 135, 255);
