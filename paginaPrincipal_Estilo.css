@@ -10,6 +10,7 @@
 body{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-image: url("assets/Imagens/Fundo.png");
     background-attachment: fixed;
     background-size: 100%;
@@ -17,19 +18,20 @@ body{
 }
 
 .titulo {
+    position: fixed;
     font-family: "Big Deal";
-    font-size: 100px;
+    font-size: 17vh;
     color:aliceblue;
-    text-shadow: 8px 5px rgba(0, 0, 0, 0.764)
+    text-shadow: 1vw 2vh rgba(0, 0, 0, 0.764)
 }
 .painel_cabecalho{
     display: flex;
     justify-content: center;
 
-    margin: 30px;
-    width: 700px;
-    height: 100px;
-    padding-bottom: 120px;
+    margin: 15vh;
+    width: 60vw;
+    height: 9vh;
+    padding-bottom: 30vh;
     background-color: rgba(175, 218, 255, 0.764);
     border-radius: 20px;
 
@@ -38,9 +40,9 @@ body{
 
 .conteudo {
     display: flex;
-
-    margin: 30px;
-    width: 600px;
+    position: fixed;
+    top: 66vh;
+    width: 49vw;
     background-color: rgba(175, 218, 255, 0.764);
     padding: 10px;
     border-radius: 20px;
@@ -51,11 +53,11 @@ body{
 
 .botao {
     background-color: rgb(60, 135, 255);
-    height: 60px;
-    width: 600px;
+    height: 10vh;
+    width: 48vw;
     border-radius: 10px;
     font-family: "Gill Sans";
-    font-size: 20px;
+    font-size: 3vh;
     border-color: rgb(255, 255, 255);
     color: azure;
 
