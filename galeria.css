@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Big Deal";
+    src: url("assets/fontes/aBigDeal.ttf");
+}
+@font-face {
+    font-family: "Gill Sans";
+    src: url("assets/fontes/gillsans-extrabold.ttf");
+}
+
+/*_______________________________________________________________________________________________________________________________________*/
+
+body{
+    background-image: url("assets/Imagens/laboratorio.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.titulo {
+    margin-top: 2vh;
+    font-family: "Big Deal";
+    font-size: 7vh;
+    color: rgb(255, 255, 255);
+    text-shadow: 6px 4px rgba(0, 0, 0, 0.764)
+}
+
+.conteudo{
+    background-color: rgba(175, 218, 255, 0.764);
+    height: 97vh;
+}
+
+.tabela{
+    display: flex;
+    position: fixed;
+
+    top: 2vh;
+}
+
+.fireMan{
+    height: 40vh;
+}
+
+.dynamoMan{
+    height: 35vh;
+}
+
+.frostMan{
+    height: 40vh;
+}
+
+.napalmMan{
+    height: 40vh
+}
+
+.diveMan{
+    height: 40vh;
+}
+
+.tenguMan{
+    height: 45vh;
+}
+
+.plantMan{
+    height: 40vh;
+}
+
+.stoneMan{
+    height: 40vh;
+}
+
+.tenguMan{
+    height: 40vh;
+}
+
+
+
+.botao {
+    height: 60px;
+    width: 150px;
+    padding: 5px;
+    position: fixed;
+    right: 10;
+    bottom: 11;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(60, 135, 255);
+
+    font-family: "Gill Sans";
+    font-size: 20px;
+    color: azure;
+    
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: rgb(255, 136, 0);
+}

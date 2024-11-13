@@ -50,6 +50,26 @@ body{
 .botao:hover {
     background-color: rgb(255, 136, 0);
 }
+.botao_galeria {
+    height: 60px;
+    width: 150px;
+    padding: 5px;
+    position: fixed;
+    right: 45vw;
+    bottom: 10;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(60, 135, 255);
+
+    font-family: "Gill Sans";
+    font-size: 20px;
+    color: azure;
+    
+    cursor: pointer;
+}
+.botao_galeria:hover {
+    background-color: rgb(255, 136, 0);
+}
+
 
 /*_______________________________________________________________________________________________________________________________________*/
 /*STONE MAN*/
@@ -210,4 +230,26 @@ body{
 }
 .botoes_diveMan:hover {
     background-color: rgb(30, 0, 255);
+}
+
+
+/*LABORATÓRIO*/
+.botao_lab {
+    padding: 5px;
+    position: fixed;
+    left: 45vw;
+    top: 40vh;
+    width: 13vw; /* Largura do botão */
+    height: 26vh;
+    border-radius: 100%;
+
+    background-image: url("assets/Imagens/laboratorio.jpg");
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.286);
+    
+    cursor: pointer;
+}
+.botao_lb:hover {
+    background-color: rgb(118, 99, 255);
 }

@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Big Deal";
+    src: url("assets/fontes/aBigDeal.ttf");
+}
+@font-face {
+    font-family: "Gill Sans";
+    src: url("assets/fontes/gillsans-extrabold.ttf");
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("assets/Imagens/laboratorio.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    align-items: center;
+    font-family: "Gill Sans";
+    color: white;
+}
+
+.titulo {
+    position: fixed;
+    top: -8vh;
+    font-family: "Gill Sans";
+    font-size: 15vh;
+    color:aliceblue;
+    text-shadow: 0.5vw 1vh rgba(0, 0, 0, 0.764)
+}
+.painelCabecalho{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 80vw;
+    height: 20vh;
+    background-color: rgba(175, 218, 255, 0.764);
+    border-radius: 20px;
+}
+
+.titulo_robo{
+    position: fixed;
+    top: 20vh;
+    font-family: "Gill Sans";
+    font-size: 7vh;
+    color:aliceblue;
+    text-shadow: 0.3vw 0.5vh rgba(0, 0, 0, 0.764)
+}
+.painel_robo{
+    display: flex;
+    justify-content: center;
+    top: 24vh;
+    right: 5vw;
+    position: fixed;
+    width: 60vw;
+    height: 65vh;
+    background-color: rgba(175, 218, 255, 0.764);
+    border-radius: 20px;
+    padding-left: 1vw;
+}
+.bio_robo{
+    position: fixed;
+    top: 35vh;
+    right: 30vw;
+    font-family: "Gill Sans";
+    font-size: 3vh;
+    max-width: 30%;
+    color:aliceblue;
+    text-shadow: 0.1vw 0.5vh rgba(0, 0, 0, 0.764);
+    text-align: left;
+}
+
+.imagem{
+    width: 100%;
+    height: 100%;
+}
+.painel_imagem{
+    display: flex;
+    justify-content: center;
+    top: 35vh;
+    right: 6vw;
+    position: fixed;
+    width: 20vw;
+    height: 50vh;
+    background-color: rgba(175, 218, 255, 0.764);
+    border-radius: 20px;
+    padding-left: 1vw;
+}
+
+.formalario_div{
+    position: fixed;
+    background-color: rgba(175, 218, 255, 0.764);
+    border-radius: 20px;
+
+    padding-left: 2vw;
+    height: 65vh;
+    width: 22vw;
+    top: 24vh;
+    left: 7vw;
+}
+
+
+/* 
+#bio {
+    position: fixed;
+    height: 10vh;
+} 
+*/
+
+.botao_criar {
+    bottom: 13vh;
+    height: 35px;
+    width: 130px;
+    text-align: center;
+    position: fixed;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(60, 135, 255);
+
+    font-family: "Gill Sans";
+    font-size: 20px;
+    color: azure;
+    
+    cursor: pointer;
+}
+.botao_criar:hover {
+    background-color: rgb(255, 136, 0);
+}
+
+
+.botao_voltar {
+    height: 40px;
+    width: 150px;
+    padding: 5px;
+    position: fixed;
+    right: 10;
+    bottom: 10;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(60, 135, 255);
+
+    font-family: "Gill Sans";
+    font-size: 20px;
+    color: azure;
+    
+    cursor: pointer;
+}
+.botao_voltar:hover {
+    background-color: rgb(255, 136, 0);
+}
+

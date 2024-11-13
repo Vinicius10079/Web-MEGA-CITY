@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Big Deal";
+    src: url("assets/fontes/aBigDeal.ttf");
+}
+@font-face {
+    font-family: "Gill Sans";
+    src: url("assets/fontes/gillsans-extrabold.ttf");
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("assets/Imagens/laboratorio.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    align-items: center;
+}
+
+.titulo {
+    position: fixed;
+    top: -7vh;
+    font-family: "Gill Sans";
+    font-size: 13vh;
+    color:aliceblue;
+    text-shadow: 0.5vw 1vh rgba(0, 0, 0, 0.764)
+}
+.painel_cabecalho{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 10vw;
+    width: 82vw;
+    height: 17vh;
+    background-color: rgba(175, 218, 255, 0.764);
+    border-radius: 20px;
+}
+
+.imagem{
+    position: fixed;
+    height: 70vh;
+    top: 23vh;
+    left: 18vw;
+}
+
+.painel_subtitulo {
+    display: flex;
+    position: fixed;
+    top: 20.5vh;
+    right: 20vw;
+    width: 22.5vw;
+    height: 72vh;
+    background-color: rgba(175, 218, 255, 0.764);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    font-size: 3vh;
+    max-width: 30%;
+
+    justify-content: center;
+    font-family: "Gill Sans";
+}
+
+.painel_texto {
+    display: flex;
+    position: fixed;
+    top: 27vh;
+    right: 20vw;
+    width: 22.5vw;
+    height: 72vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    font-size: 3vh;
+
+    justify-content: center;
+    font-family: "Gill Sans";
+}
+
+.botao_voltar {
+    height: 50px;
+    width: 150px;
+    padding: 5px;
+    position: fixed;
+    right: 10;
+    bottom: 10;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(60, 135, 255);
+
+    font-family: "Gill Sans";
+    font-size: 20px;
+    color: azure;
+    
+    cursor: pointer;
+}
+.botao_voltar:hover {
+    background-color: rgb(255, 136, 0);
+}

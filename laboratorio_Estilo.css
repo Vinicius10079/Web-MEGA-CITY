@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "Big Deal";
+    src: url("assets/fontes/aBigDeal.ttf");
+}
+@font-face {
+    font-family: "Gill Sans";
+    src: url("assets/fontes/gillsans-extrabold.ttf");
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url("assets/Imagens/laboratorio.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    align-items: center;
+}
+
+.titulo {
+    position: fixed;
+    top: -10vh;
+    font-family: "Gill Sans";
+    font-size: 17vh;
+    color:aliceblue;
+    text-shadow: 0.5vw 1vh rgba(0, 0, 0, 0.764)
+}
+.painel_cabecalho{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    right: 10vw;
+    width: 80vw;
+    height: 20vh;
+    background-color: rgba(175, 218, 255, 0.764);
+    border-radius: 20px;
+}
+
+.painelTexto {
+    display: flex;
+    position: fixed;
+    top: 24vh;
+    width: 70vw;
+    height: 18vh;
+    background-color: rgba(175, 218, 255, 0.764);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    font-size: 3vh;
+    color: white;
+    text-shadow: 0.2vw 0.5vh rgba(0, 0, 0, 0.764);
+
+    justify-content: center;
+    font-family: "Gill Sans";
+}
+
+.conteudoBotoes {
+    display: flex;
+    position: fixed;
+    top: 50vh;
+    width: 49vw;
+    height: 40vh;
+    background-color: rgba(175, 218, 255, 0.764);
+    padding: 10px;
+    border-radius: 20px;
+    
+    justify-content: center;
+    font-family: "Gill Sans";
+}
+.botao {
+    position: fixed;
+    background-color: rgb(60, 135, 255);
+    height: 10vh;
+    width: 48vw;
+    border-radius: 10px;
+    font-family: "Gill Sans";
+    font-size: 3vh;
+    border-color: rgb(255, 255, 255);
+    color: azure;
+
+    right: 26vw;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: rgb(255, 136, 0);
+}
+.botao_criacao {
+    display: flex;
+    position: fixed;
+    background-color: rgb(60, 135, 255);
+    height: 10vh;
+    width: 48vw;
+    border-radius: 10px;
+    font-family: "Gill Sans";
+    font-size: 3vh;
+    border-color: rgb(255, 255, 255);
+    color: azure;
+
+    right: 26vw;
+    bottom: 25vh;
+
+    padding-top: 3.5vh;
+    padding-bottom: 5vh;
+    padding-left: 18vw;
+    padding-right: 10vw;
+
+    cursor: pointer;
+}
+.botao_criacao:hover {
+    background-color: rgb(255, 136, 0);
+}
+.botao_sistemaDeUmRobo {
+    display: flex;
+    position: fixed;
+    background-color: rgb(60, 135, 255);
+    height: 10vh;
+    width: 48vw;
+    border-radius: 10px;
+    font-family: "Gill Sans";
+    font-size: 3vh;
+    border-color: rgb(255, 255, 255);
+    color: azure;
+
+    right: 26vw;
+    bottom: 11vh;
+
+    padding-top: 3.5vh;
+    padding-bottom: 5vh;
+    padding-left: 15vw;
+    padding-right: 10vw;
+
+    cursor: pointer;
+}
+.botao_sistemaDeUmRobo:hover {
+    background-color: rgb(255, 136, 0);
+}
+
+.botao_voltar {
+    height: 50px;
+    width: 150px;
+    padding: 5px;
+    position: fixed;
+    right: 10;
+    bottom: 10;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(60, 135, 255);
+
+    font-family: "Gill Sans";
+    font-size: 20px;
+    color: azure;
+    
+    cursor: pointer;
+}
+.botao_voltar:hover {
+    background-color: rgb(255, 136, 0);
+}

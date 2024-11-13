@@ -1,0 +1,54 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/Imagens/iconePrincipal.png">
+    <link rel="stylesheet" href="criacao.css">
+    <title>Mega City - Criação</title>
+</head>
+
+<body>
+    <header class="painelCabecalho">
+        <h1 class="titulo">CRIAÇÃO</h1>
+    </header>
+
+    <div class="formalario_div">
+        <br>
+        <form action="/submit_form" method="POST">
+            <label for="nome">NOME:</label><br>
+            <input type="text" maxlength="30" id="nome" name="nome" required><br>
+
+            <label for="bio">BIO</label><br>
+            <input type="text" maxlength="320" id="bio" name="bio" required><br>
+            <br>
+            <label for="elemento">ELEMENTO:</label><br>
+            <input type="radio" id="terra" name="elemento"> Terra<br>
+            <input type="radio" id="ar" name="elemento"> Ar<br>
+            <input type="radio" id="agua" name="elemento"> Água<br>
+            <input type="radio" id="fogo" name="elemento"> Fogo<br>
+            <br>            
+            <label for="parte">PORTE:</label><br>
+            <input type="radio" id="pequeno" name="porte"> Pequeno<br>
+            <input type="radio" id="medio" name="porte"> Médio<br>
+            <input type="radio" id="grande" name="porte"> Grande<br>
+
+            <input class="botao_criar" value="CRIAR">
+        </form>
+    </div>
+
+    <div class="painel_robo">
+        <h1 class="titulo_robo">Preencha o Formulário</h1>
+        <p class="bio_robo">
+            Preencha os campos de nome, bio, elemento e porte à esquerda.
+        </p>
+        <div class="painel_imagem">
+            <img class="imagem" src="assets/Imagens/imagem.png"></img>
+        </div>
+    </div>
+    
+    <a href="laboratorio.html"><button class="botao_voltar">VOLTAR</button></a>
+</body>
+
+<script src="criacao.js"></script>
+
+</html>

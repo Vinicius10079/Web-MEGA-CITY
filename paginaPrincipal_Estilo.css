@@ -43,6 +43,7 @@ body{
     position: fixed;
     top: 66vh;
     width: 49vw;
+    height: 23vh;
     background-color: rgba(175, 218, 255, 0.764);
     padding: 10px;
     border-radius: 20px;
@@ -69,5 +70,25 @@ body{
     cursor: pointer;
 }
 .botao:hover {
+    background-color: rgb(255, 136, 0);
+}
+
+.botao_lab {
+    position: fixed;
+    background-color: rgb(60, 135, 255);
+    height: 10vh;
+    width: 48vw;
+    border-radius: 10px;
+    font-family: "Gill Sans";
+    font-size: 3vh;
+    border-color: rgb(255, 255, 255);
+    color: azure;
+
+    bottom: 11vh;
+    right: 26vw;
+
+    cursor: pointer;
+}
+.botao_lab:hover {
     background-color: rgb(255, 136, 0);
 }
